@@ -6,7 +6,7 @@ int main(int argc, char **argv)
         printf("argc > 1\n");
     }
     else {
-        printf("argc <= 1\n");
+        printf("argc <= 1,hello\n");
     }
 
     return 0;
