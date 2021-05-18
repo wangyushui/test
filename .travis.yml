@@ -1,0 +1,15 @@
+language: c
+compiler:
+    - gcc
+os:
+    - linux
+script:
+    - cmake .
+    - make
+    - ./main
+notifications:
+    email:
+        recipients:
+            - wangyushui@huawei.com
+        on_success: change
+        on_failure: change
